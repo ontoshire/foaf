@@ -8,7 +8,7 @@ when a version is published.
 
 | | |
 |---|---|
-| Source | <http://xmlns.com/foaf/spec/index.rdf> |
+| Source | <https://xmlns.com/foaf/spec/index.rdf> |
 | Ontology IRI | `http://xmlns.com/foaf/0.1/` |
 | Licence | [CC BY 1.0](https://creativecommons.org/licenses/by/1.0/) |
 
