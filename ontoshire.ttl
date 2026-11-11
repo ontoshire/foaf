@@ -1,0 +1,21 @@
+# Ontoshire publishing manifest — a MIRROR.
+#
+# This repository contains no RDF. FOAF — Friend of a Friend is published by
+# somebody else; the manifest names their canonical URL and Ontoshire fetches
+# it unchanged at publish time. Nothing here is a fork, and nothing here is
+# maintained by Ontoshire.
+#
+# Source:  http://xmlns.com/foaf/spec/index.rdf
+# Licence: CC BY 1.0 — https://creativecommons.org/licenses/by/1.0/
+
+@prefix dcat:    <http://www.w3.org/ns/dcat#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+
+<> a dcat:Catalog ;
+    dcat:dataset <#onto> .
+
+<#onto> a dcat:Dataset ;
+    dcterms:title "FOAF — Friend of a Friend" ;
+    dcterms:identifier <http://xmlns.com/foaf/0.1/> ;
+    dcterms:license <https://creativecommons.org/licenses/by/1.0/> ;
+    dcat:distribution [ dcat:downloadURL <http://xmlns.com/foaf/spec/index.rdf> ] .
